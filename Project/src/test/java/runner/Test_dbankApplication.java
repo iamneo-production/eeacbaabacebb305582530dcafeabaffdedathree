@@ -76,8 +76,8 @@ public class Test_dbankApplication extends Base {
 
             depositPage.selectItemFromDepositDropDown();
             log.info("Selected Item from Deop Down List");
-
-            depositPage.sendDepositAmount(null);
+            test.log(Status.FAIL, "drop down failed");
+            depositPage.sendDepositAmount("5000");
             log.info("Sent deposit amount text");
             depositPage.clickSubmitButton();
             log.info("Clicked Submit");
@@ -111,10 +111,11 @@ public class Test_dbankApplication extends Base {
             withdrawPage.selectItemFromDepositDropDown();
             log.info("Selected Item from Drop Down List");
 
-            withdrawPage.sendWithdrawAmount(null);
+            withdrawPage.sendWithdrawAmount("3000");
             log.info("Sent Withdraw amount text");
             withdrawPage.clickSubmitButton();
             log.info("Clicked Submit");
+            Screenshot.getScreenShot(driver, "Deposit");
             test.pass("Withdraw Verified Successfully");
 
         } catch (Exception e) {

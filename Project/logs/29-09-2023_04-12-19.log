@@ -1,0 +1,12 @@
+Sep 29, 2023 4:12:21 AM utils.Base openBrowser
+INFO: Browser Launched
+Sep 29, 2023 4:12:23 AM utils.Base openBrowser
+INFO: Browser Loaded the URL
+Sep 29, 2023 4:12:23 AM runner.Test_dbankApplication verifySignIn
+INFO: Sent User Name
+Sep 29, 2023 4:12:23 AM runner.Test_dbankApplication verifySignIn
+INFO: Sent Password
+Sep 29, 2023 4:12:28 AM runner.Test_dbankApplication verifySignIn
+INFO: Clicked Submit Button
+Sep 29, 2023 4:12:28 AM runner.Test_dbankApplication end
+INFO: Browser closed
