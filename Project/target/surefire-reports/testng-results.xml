@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T04:10:08 UTC" name="Surefire suite" finished-at="2023-09-29T04:11:04 UTC" duration-ms="56427">
+  <suite started-at="2023-09-29T04:12:20 UTC" name="Surefire suite" finished-at="2023-09-29T04:12:52 UTC" duration-ms="32425">
     <groups>
     </groups>
-    <test started-at="2023-09-29T04:10:08 UTC" name="Surefire test" finished-at="2023-09-29T04:11:04 UTC" duration-ms="56427">
+    <test started-at="2023-09-29T04:12:20 UTC" name="Surefire test" finished-at="2023-09-29T04:12:52 UTC" duration-ms="32425">
       <class name="runner.Test_dbankApplication">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:08 UTC" name="startUp" finished-at="2023-09-29T04:10:12 UTC" duration-ms="4443" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:20 UTC" name="startUp" finished-at="2023-09-29T04:12:23 UTC" duration-ms="3061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="verifySignIn()[pri:1, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:12 UTC" name="verifySignIn" finished-at="2023-09-29T04:10:17 UTC" duration-ms="4977" status="PASS">
+        <test-method signature="verifySignIn()[pri:1, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:23 UTC" name="verifySignIn" finished-at="2023-09-29T04:12:28 UTC" duration-ms="5077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignIn -->
-        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:17 UTC" name="end" finished-at="2023-09-29T04:10:18 UTC" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:28 UTC" name="end" finished-at="2023-09-29T04:12:28 UTC" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:18 UTC" name="startUp" finished-at="2023-09-29T04:10:30 UTC" duration-ms="12667" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:28 UTC" name="startUp" finished-at="2023-09-29T04:12:30 UTC" duration-ms="2239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="verifyDeposit()[pri:2, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:30 UTC" name="verifyDeposit" finished-at="2023-09-29T04:10:40 UTC" duration-ms="9562" status="PASS">
+        <test-method signature="verifyDeposit()[pri:2, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:30 UTC" name="verifyDeposit" finished-at="2023-09-29T04:12:40 UTC" duration-ms="9480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeposit -->
-        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:40 UTC" name="end" finished-at="2023-09-29T04:10:40 UTC" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:40 UTC" name="end" finished-at="2023-09-29T04:12:40 UTC" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:40 UTC" name="startUp" finished-at="2023-09-29T04:10:55 UTC" duration-ms="14588" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:40 UTC" name="startUp" finished-at="2023-09-29T04:12:42 UTC" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="verifyWithdraw()[pri:3, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:10:55 UTC" name="verifyWithdraw" finished-at="2023-09-29T04:11:04 UTC" duration-ms="9573" status="PASS">
+        <test-method signature="verifyWithdraw()[pri:3, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:42 UTC" name="verifyWithdraw" finished-at="2023-09-29T04:12:52 UTC" duration-ms="9630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWithdraw -->
-        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:11:04 UTC" name="end" finished-at="2023-09-29T04:11:04 UTC" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:runner.Test_dbankApplication@1c7696c6]" started-at="2023-09-29T04:12:52 UTC" name="end" finished-at="2023-09-29T04:12:52 UTC" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
