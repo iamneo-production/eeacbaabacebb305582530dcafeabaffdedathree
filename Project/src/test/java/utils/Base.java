@@ -50,7 +50,7 @@ public class Base
 		{
 		DesiredCapabilities dc=new DesiredCapabilities();
 			dc.setBrowserName("chrome");
-			driver = new RemoteWebDriver(new URL("http://34.85.201.58:4478/"), dc);
+			driver = new RemoteWebDriver(new URL("http://34.85.201.58:4481/"), dc);
 			   
 		}
 		else if(browsername.equalsIgnoreCase("firefox")){
